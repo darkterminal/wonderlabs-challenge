@@ -2,7 +2,7 @@
 
 Includes complete Bootstrap 4.0.0-beta dev environment with gulp and sass
 
-Created By : [Brad Traversy](https://github.com/bradtraversy/bs4starter_alpha6)
+Created By : [Brad Traversy](https://github.com/bradtraversy)
 
 ## Install Dependencies
 
