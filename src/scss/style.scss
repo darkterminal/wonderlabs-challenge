@@ -1,1 +1,109 @@
 // Main Sass File
+@import url('https://fonts.googleapis.com/css?family=Arapey:400i');
+body {
+    background-color: #fff;
+}
+
+a {
+    color: #fff !important;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+.navbar-display-small {
+    display: none;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.row.no-gutters>[class^="col-"],
+.row.no-gutters>[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-brand {
+    img {
+        width: 35px;
+    }
+}
+
+.navbar-nav {
+    .nav-item {
+        text-transform: uppercase;
+        font-size: 14px;
+        margin: 0px 10px;
+        .nav-link {
+            color: #ffffff !important;
+        }
+    }
+}
+
+.showcase {
+    height: 100vh;
+    background: url('../img/1.jpg') no-repeat center center;
+    background-size: cover;
+    .showcase-item {
+        width: 60%;
+        color: #fff;
+        margin: auto;
+        .btn-showcase {
+            background: rgb(233, 37, 247);
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 20px;
+            padding: 10px 35px;
+        }
+        .btn-play {
+            position: relative;
+            bottom: -180px;
+        }
+    }
+}
+
+.postcard-gallery {
+    overflow-x: hidden;
+}
+
+.footer-info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Arapey', serif;
+    h3 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 16px !important;
+        margin-bottom: 20px;
+    }
+}
+
+footer {
+    padding: 10px;
+    font-family: 'Arapey', serif;
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
+
+@media only screen and (max-width: 360px) {
+    /* Styles */
+    .navbar {
+        padding: 10px !important;
+    }
+    .showcase {
+        .showcase-item {
+            h1 {
+                font-size: 3em !important;
+            }
+        }
+    }
+    .small-hide {
+        display: none;
+    }
+}

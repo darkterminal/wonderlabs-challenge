@@ -12,45 +12,135 @@
 
 <body>
 
-    <div class="container">
-        <div class="row align-items-start">
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
+    <nav class="navbar navbar-expand-md fixed-top justify-content-between">
+        <div class="container p-2">
+            <a href="#" class="navbar-brand">
+                <img src="img/brand.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <span class="fa fa-bars text-white"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between" id="collapsingNavbar2">
+                <div>
+                    <!--placeholder to evenly space flexbox items and center links-->
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Link <span class="sr-only">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav flex-row small-hide">
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><i class="fa fa-bars"></i></a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="row align-items-center">
-            <div class="col">
-                One of three columns
+    </nav>
+
+    <section class="showcase d-flex align-items-center">
+
+        <div class="showcase-item text-center">
+            <h1 class="display-3">My Opportunity</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Nihil illum molestiae sit ut saepe minus obcaecati, <br> nam veritatis totam reiciendis.</p>
+            <button class="btn btn-md btn-showcase">Realy?</button> <br>
+
+            <a href="" class="align-self-end btn rounded-circle border border-white btn-play">
+                <i class="fa fa-play"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <section class="postcard-gallery">
+        <div class="row no-guuters">
+            <div class="d-flex col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 box box-image-1">
+                <div class="align-self-end mx-auto text-center text-white">
+                    <h5>Lorem ipsum dolor</h5>
+                    <p>Some Place!</p>
+                </div>
             </div>
-            <div class="col">
-                One of three columns
+            <div class="d-flex col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 box box-image-2">
+                <div class="align-self-end mx-auto text-center text-white">
+                    <h5>Lorem ipsum dolor</h5>
+                    <p>Some Place!</p>
+                </div>
             </div>
-            <div class="col">
-                One of three columns
+            <div class="d-flex col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 box box-image-3">
+                <div class="align-self-end mx-auto text-center text-white">
+                    <h5>Lorem ipsum dolor</h5>
+                    <p>Some Place!</p>
+                </div>
+            </div>
+            <div class="d-flex col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 box box-image-4">
+                <div class="align-self-end mx-auto text-center text-white">
+                    <h5>Lorem ipsum dolor</h5>
+                    <p>Some Place!</p>
+                </div>
             </div>
         </div>
-        <div class="row align-items-end">
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
-            </div>
-            <div class="col">
-                One of three columns
+    </section>
+
+    <section class="footer-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <h3>Follow Us</h3>
+                    <ul class="list-unstyled">
+                        <li class="font-italic"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</li>
+                        <li class="font-italic"><i class="fa fa-facebook"></i> Facebook</li>
+                        <li class="font-italic"><i class="fa fa-pinterest"></i> Pinterst</li>
+                        <li class="font-italic"><i class="fa fa-linkedin"></i> Linkedin</li>
+                        <li class="font-italic"><i class="fa fa-youtube"></i> Youtube</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <h3>Get to Know Us</h3>
+                    <ul class="list-unstyled">
+                        <li class="font-italic">About</li>
+                        <li class="font-italic">Policies</li>
+                        <li class="font-italic">Careers</li>
+                        <li class="font-italic">Press</li>
+                        <li class="font-italic">Developers</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <h3>Locations</h3>
+                    <ul class="list-unstyled">
+                        <li class="font-italic">Detroid</li>
+                        <li class="font-italic">London</li>
+                        <li class="font-italic">Florida</li>
+                        <li class="font-italic">las Vegas</li>
+                        <li class="font-italic">California</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                    <h3>Our Mission</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores suscipit molestias omnis placeat illum! Unde rem eaque dolorum! Dolorem consequuntur reiciendis.</p>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            Copyright &copy; <span id="date"></span> Imam Ali Mustofa
+        </div>
+    </footer>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
